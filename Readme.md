@@ -50,10 +50,10 @@ python rag_support_system.py
 streamlit run streamlit_app.py
 ```
 
-To use the Gemini LLM integration, create a `.streamlit/secrets.toml` file with:
+To use the Gemini LLM integration, create a `.env` file with:
 
-```toml
-gemini_api_key = "YOUR_API_KEY"
+```env
+GEMINI_API_KEY = "YOUR_API_KEY"
 ```
 
 ## 📊 Sample Data
@@ -131,10 +131,6 @@ The system supports two modes:
 - LLM-enhanced responses (when API key is provided)
 
 This dual approach ensures the system works in various environments.
-
-## 📄 License
-
-MIT
 
 ## 🤝 Contributing
 
